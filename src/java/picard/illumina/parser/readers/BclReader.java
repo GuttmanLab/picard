@@ -23,7 +23,7 @@
 */
 package picard.illumina.parser.readers;
 
-import htsjdk.samtools.Defaults;
+import htsjdk.samtools.fork.Defaults;
 import htsjdk.samtools.util.BlockCompressedInputStream;
 import htsjdk.samtools.util.CloseableIterator;
 import htsjdk.samtools.util.CloserUtil;

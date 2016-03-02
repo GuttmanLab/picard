@@ -1,6 +1,6 @@
 package picard.util;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.reference.ReferenceSequence;
 import htsjdk.samtools.reference.ReferenceSequenceFileWalker;
 import htsjdk.samtools.util.CloserUtil;

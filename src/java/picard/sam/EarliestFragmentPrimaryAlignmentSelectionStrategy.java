@@ -23,8 +23,8 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.AlignmentBlock;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.AlignmentBlock;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.CoordMath;
 
 import java.util.ArrayList;

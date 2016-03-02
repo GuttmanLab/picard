@@ -24,9 +24,9 @@
 
 package picard.analysis;
 
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamPairUtil;
-import htsjdk.samtools.SamPairUtil.PairOrientation;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamPairUtil;
+import htsjdk.samtools.fork.SamPairUtil.PairOrientation;
 
 import java.util.EnumSet;
 import java.util.Set;

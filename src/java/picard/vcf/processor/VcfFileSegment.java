@@ -24,7 +24,7 @@
 package picard.vcf.processor;
 
 import htsjdk.samtools.util.Interval;
-import htsjdk.samtools.SAMSequenceRecord;
+import htsjdk.samtools.fork.SAMSequenceRecord;
 
 import java.io.File;
 

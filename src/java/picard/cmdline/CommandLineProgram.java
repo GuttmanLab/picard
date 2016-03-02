@@ -23,11 +23,11 @@
  */
 package picard.cmdline;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMFileWriterFactory;
-import htsjdk.samtools.SAMFileWriterImpl;
-import htsjdk.samtools.SamReaderFactory;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMFileWriterFactory;
+import htsjdk.samtools.fork.SAMFileWriterImpl;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.metrics.Header;
 import htsjdk.samtools.metrics.MetricBase;
 import htsjdk.samtools.metrics.MetricsFile;

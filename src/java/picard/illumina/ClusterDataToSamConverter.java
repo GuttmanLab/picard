@@ -23,10 +23,10 @@
  */
 package picard.illumina;
 
-import htsjdk.samtools.ReservedTagConstants;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMTag;
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.ReservedTagConstants;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTag;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.filter.SamRecordFilter;
 import htsjdk.samtools.filter.SolexaNoiseFilter;
 import picard.fastq.IlluminaReadNameEncoder;

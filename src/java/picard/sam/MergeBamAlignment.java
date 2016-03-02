@@ -23,9 +23,9 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.SAMFileHeader.SortOrder;
-import htsjdk.samtools.SAMProgramRecord;
-import htsjdk.samtools.SamPairUtil;
+import htsjdk.samtools.fork.SAMFileHeader.SortOrder;
+import htsjdk.samtools.fork.SAMProgramRecord;
+import htsjdk.samtools.fork.SamPairUtil;
 import htsjdk.samtools.util.Log;
 import picard.PicardException;
 import picard.cmdline.CommandLineProgram;

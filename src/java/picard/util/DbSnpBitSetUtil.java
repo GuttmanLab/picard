@@ -23,7 +23,7 @@
  */
 package picard.util;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.IntervalList;
 import htsjdk.variant.variantcontext.VariantContext;

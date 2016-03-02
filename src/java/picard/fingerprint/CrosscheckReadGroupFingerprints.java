@@ -25,7 +25,7 @@
 
 package picard.fingerprint;
 
-import htsjdk.samtools.BamFileIoUtils;
+import htsjdk.samtools.fork.BamFileIoUtils;
 import picard.cmdline.CommandLineProgramProperties;
 import picard.cmdline.CommandLineProgram;
 import picard.cmdline.Option;
@@ -33,7 +33,7 @@ import picard.cmdline.StandardOptionDefinitions;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.FormatUtil;
 import htsjdk.samtools.util.Log;
-import htsjdk.samtools.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
 import picard.cmdline.programgroups.Alpha;
 
 import java.io.File;

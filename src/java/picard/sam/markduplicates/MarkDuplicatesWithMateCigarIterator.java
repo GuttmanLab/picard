@@ -31,8 +31,8 @@ import htsjdk.samtools.util.Histogram;
 import picard.sam.DuplicationMetrics;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.PeekableIterator;
-import htsjdk.samtools.*;
-import htsjdk.samtools.DuplicateScoringStrategy.ScoringStrategy;
+import htsjdk.samtools.fork.*;
+import htsjdk.samtools.fork.DuplicateScoringStrategy.ScoringStrategy;
 import htsjdk.samtools.util.CloseableIterator;
 import picard.sam.markduplicates.util.*;
 

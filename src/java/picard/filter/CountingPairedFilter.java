@@ -24,7 +24,7 @@
 
 package picard.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /** Counting filter that discards reads that are unpaired in sequencing and paired reads whose mates are not mapped. */
 public class CountingPairedFilter extends CountingFilter {

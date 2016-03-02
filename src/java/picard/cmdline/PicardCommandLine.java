@@ -1,6 +1,6 @@
 package picard.cmdline;
 
-import htsjdk.samtools.Defaults;
+import htsjdk.samtools.fork.Defaults;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.StringUtil;
 

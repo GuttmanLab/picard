@@ -24,7 +24,7 @@
 
 package picard.analysis.directed;
 
-import htsjdk.samtools.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
 import htsjdk.samtools.reference.ReferenceSequenceFile;
 import htsjdk.samtools.util.IntervalList;
 import picard.analysis.MetricAccumulationLevel;

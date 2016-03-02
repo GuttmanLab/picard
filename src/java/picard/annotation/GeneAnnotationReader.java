@@ -23,7 +23,7 @@
  */
 package picard.annotation;
 
-import htsjdk.samtools.SAMSequenceDictionary;
+import htsjdk.samtools.fork.SAMSequenceDictionary;
 import htsjdk.samtools.util.OverlapDetector;
 
 import java.io.File;

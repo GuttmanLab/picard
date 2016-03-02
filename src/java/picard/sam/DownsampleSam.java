@@ -23,14 +23,14 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.DownsamplingIteratorFactory;
-import htsjdk.samtools.DownsamplingIteratorFactory.Strategy;
-import htsjdk.samtools.SAMFileWriter;
-import htsjdk.samtools.SAMFileWriterFactory;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
-import htsjdk.samtools.DownsamplingIterator;
+import htsjdk.samtools.fork.DownsamplingIteratorFactory;
+import htsjdk.samtools.fork.DownsamplingIteratorFactory.Strategy;
+import htsjdk.samtools.fork.SAMFileWriter;
+import htsjdk.samtools.fork.SAMFileWriterFactory;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.DownsamplingIterator;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Log;

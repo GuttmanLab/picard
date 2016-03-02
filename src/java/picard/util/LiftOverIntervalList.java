@@ -23,8 +23,8 @@
  */
 package picard.util;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.liftover.LiftOver;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Interval;

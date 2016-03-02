@@ -24,8 +24,8 @@
 
 package picard.sam;
 
-import htsjdk.samtools.BAMIndex;
-import htsjdk.samtools.BAMIndexMetaData;
+import htsjdk.samtools.fork.BAMIndex;
+import htsjdk.samtools.fork.BAMIndexMetaData;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Log;
 import picard.cmdline.CommandLineProgram;

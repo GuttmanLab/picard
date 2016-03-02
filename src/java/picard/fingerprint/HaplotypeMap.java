@@ -29,8 +29,8 @@ import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.FormatUtil;
 import htsjdk.samtools.util.Interval;
 import htsjdk.samtools.util.IntervalList;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMTextHeaderCodec;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMTextHeaderCodec;
 import htsjdk.samtools.util.StringLineReader;
 
 import java.io.*;

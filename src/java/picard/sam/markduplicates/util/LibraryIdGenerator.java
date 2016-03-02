@@ -24,9 +24,9 @@
 
 package picard.sam.markduplicates.util;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.Histogram;
 import picard.sam.DuplicationMetrics;
 

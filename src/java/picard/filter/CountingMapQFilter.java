@@ -24,7 +24,7 @@
 
 package picard.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /** Counting filter that discards reads below a configurable mapping quality threshold. */
 public class CountingMapQFilter extends CountingFilter {

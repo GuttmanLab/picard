@@ -24,7 +24,7 @@
 
 package picard.analysis;
 
-import htsjdk.samtools.SamPairUtil.PairOrientation;
+import htsjdk.samtools.fork.SamPairUtil.PairOrientation;
 import picard.metrics.MultilevelMetrics;
 
 /**

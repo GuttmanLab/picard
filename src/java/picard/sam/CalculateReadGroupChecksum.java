@@ -1,6 +1,6 @@
 package picard.sam;
 
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.util.IOUtil;
 import picard.PicardException;
 import picard.cmdline.CommandLineProgram;

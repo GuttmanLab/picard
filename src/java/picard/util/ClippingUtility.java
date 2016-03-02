@@ -24,8 +24,8 @@
 
 package picard.util;
 
-import htsjdk.samtools.ReservedTagConstants;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.ReservedTagConstants;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.SequenceUtil;
 

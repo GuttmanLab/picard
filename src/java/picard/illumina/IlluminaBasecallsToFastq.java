@@ -23,8 +23,8 @@
  */
 package picard.illumina;
 
-import htsjdk.samtools.SAMRecordQueryNameComparator;
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.SAMRecordQueryNameComparator;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.fastq.BasicFastqWriter;
 import htsjdk.samtools.fastq.FastqReader;
 import htsjdk.samtools.fastq.FastqRecord;

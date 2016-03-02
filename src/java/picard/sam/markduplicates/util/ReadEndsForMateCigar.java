@@ -24,10 +24,10 @@
 
 package picard.sam.markduplicates.util;
 
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.util.SamRecordWithOrdinal;
 import picard.PicardException;
 

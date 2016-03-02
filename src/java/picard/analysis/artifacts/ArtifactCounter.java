@@ -1,6 +1,6 @@
 package picard.analysis.artifacts;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.ListMap;
 import htsjdk.samtools.util.SequenceUtil;
 import htsjdk.samtools.util.StringUtil;

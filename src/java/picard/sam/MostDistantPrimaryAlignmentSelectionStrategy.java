@@ -23,8 +23,8 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.util.CollectionUtil;
 import htsjdk.samtools.util.CoordMath;
 

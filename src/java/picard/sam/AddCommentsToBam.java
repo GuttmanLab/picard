@@ -1,8 +1,8 @@
 package picard.sam;
 
-import htsjdk.samtools.BamFileIoUtils;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.BamFileIoUtils;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.IOUtil;
 import picard.PicardException;
 import picard.cmdline.CommandLineProgram;

@@ -23,7 +23,7 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.SAMUtils;
 import picard.sam.HitsForInsert.NumPrimaryAlignmentState;
 
 import java.util.ArrayList;

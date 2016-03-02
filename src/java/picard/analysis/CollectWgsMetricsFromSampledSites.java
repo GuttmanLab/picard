@@ -24,7 +24,7 @@
 
 package picard.analysis;
 
-import htsjdk.samtools.SamReader;
+import htsjdk.samtools.fork.SamReader;
 import htsjdk.samtools.util.*;
 import picard.cmdline.CommandLineProgramProperties;
 import picard.cmdline.Option;

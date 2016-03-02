@@ -24,7 +24,7 @@
 
 package picard.sam.markduplicates.util;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.SamRecordWithOrdinal;
 
 /**

@@ -24,14 +24,14 @@
 
 package picard.sam.markduplicates.util;
 
-import htsjdk.samtools.DuplicateScoringStrategy;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMUtils;
+import htsjdk.samtools.fork.DuplicateScoringStrategy;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMUtils;
 import htsjdk.samtools.util.SamRecordTrackingBuffer;
 import picard.PicardException;
 import picard.sam.DuplicationMetrics;
-import htsjdk.samtools.DuplicateScoringStrategy.ScoringStrategy;
+import htsjdk.samtools.fork.DuplicateScoringStrategy.ScoringStrategy;
 
 import java.util.Comparator;
 import java.util.Set;

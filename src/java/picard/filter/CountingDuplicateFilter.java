@@ -24,7 +24,7 @@
 
 package picard.filter;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 
 /** Counting filter that discards reads that have been marked as duplicates. */
 public class CountingDuplicateFilter extends CountingFilter {

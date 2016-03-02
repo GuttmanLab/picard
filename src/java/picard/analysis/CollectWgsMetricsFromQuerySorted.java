@@ -24,7 +24,7 @@
 
 package picard.analysis;
 
-import htsjdk.samtools.*;
+import htsjdk.samtools.fork.*;
 import htsjdk.samtools.metrics.MetricsFile;
 import htsjdk.samtools.util.*;
 import picard.cmdline.CommandLineProgram;

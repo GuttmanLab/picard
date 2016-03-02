@@ -23,8 +23,8 @@
  */
 package picard.sam;
 
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SAMTag;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SAMTag;
 
 import java.util.ArrayList;
 import java.util.Collections;

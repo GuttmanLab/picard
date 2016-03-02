@@ -24,12 +24,12 @@
 
 package picard.sam;
 
-import htsjdk.samtools.SAMValidationError;
-import htsjdk.samtools.SamFileValidator;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
-import htsjdk.samtools.ValidationStringency;
-import htsjdk.samtools.BamIndexValidator.IndexValidationStringency;
+import htsjdk.samtools.fork.SAMValidationError;
+import htsjdk.samtools.fork.SamFileValidator;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
+import htsjdk.samtools.fork.ValidationStringency;
+import htsjdk.samtools.fork.BamIndexValidator.IndexValidationStringency;
 import htsjdk.samtools.reference.ReferenceSequenceFile;
 import htsjdk.samtools.reference.ReferenceSequenceFileFactory;
 import htsjdk.samtools.util.IOUtil;

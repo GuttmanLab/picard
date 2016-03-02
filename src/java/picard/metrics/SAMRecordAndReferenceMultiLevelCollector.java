@@ -1,6 +1,6 @@
 package picard.metrics;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.metrics.MetricBase;
 import htsjdk.samtools.reference.ReferenceSequence;
 

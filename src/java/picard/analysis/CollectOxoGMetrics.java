@@ -24,10 +24,10 @@
 
 package picard.analysis;
 
-import htsjdk.samtools.SAMReadGroupRecord;
-import htsjdk.samtools.SAMRecord;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.SAMReadGroupRecord;
+import htsjdk.samtools.fork.SAMRecord;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.filter.DuplicateReadFilter;
 import htsjdk.samtools.filter.InsertSizeFilter;
 import htsjdk.samtools.filter.NotPrimaryAlignmentFilter;

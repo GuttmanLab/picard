@@ -24,14 +24,14 @@
 
 package picard.sam;
 
-import htsjdk.samtools.BAMIndex;
-import htsjdk.samtools.BAMIndexer;
-import htsjdk.samtools.BamFileIoUtils;
-import htsjdk.samtools.SAMException;
-import htsjdk.samtools.SAMFileHeader;
-import htsjdk.samtools.SamInputResource;
-import htsjdk.samtools.SamReader;
-import htsjdk.samtools.SamReaderFactory;
+import htsjdk.samtools.fork.BAMIndex;
+import htsjdk.samtools.fork.BAMIndexer;
+import htsjdk.samtools.fork.BamFileIoUtils;
+import htsjdk.samtools.fork.SAMException;
+import htsjdk.samtools.fork.SAMFileHeader;
+import htsjdk.samtools.fork.SamInputResource;
+import htsjdk.samtools.fork.SamReader;
+import htsjdk.samtools.fork.SamReaderFactory;
 import htsjdk.samtools.util.CloserUtil;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.Log;

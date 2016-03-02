@@ -1,8 +1,8 @@
 package picard.vcf;
 
-import htsjdk.samtools.Defaults;
-import htsjdk.samtools.SAMSequenceRecord;
-import htsjdk.samtools.ValidationStringency;
+import htsjdk.samtools.fork.Defaults;
+import htsjdk.samtools.fork.SAMSequenceRecord;
+import htsjdk.samtools.fork.ValidationStringency;
 import htsjdk.samtools.liftover.LiftOver;
 import htsjdk.samtools.reference.ReferenceSequenceFileWalker;
 import htsjdk.samtools.util.CloserUtil;

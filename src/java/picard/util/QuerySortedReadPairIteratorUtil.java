@@ -1,6 +1,6 @@
 package picard.util;
 
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.util.PeekableIterator;
 
 /**

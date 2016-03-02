@@ -24,8 +24,8 @@
 
 package picard.filter;
 
-import htsjdk.samtools.AlignmentBlock;
-import htsjdk.samtools.SAMRecord;
+import htsjdk.samtools.fork.AlignmentBlock;
+import htsjdk.samtools.fork.SAMRecord;
 import htsjdk.samtools.filter.SamRecordFilter;
 
 /**

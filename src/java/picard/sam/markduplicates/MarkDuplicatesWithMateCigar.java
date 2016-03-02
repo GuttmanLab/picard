@@ -31,7 +31,7 @@ import htsjdk.samtools.util.IterableAdapter;
 import htsjdk.samtools.util.Log;
 import htsjdk.samtools.util.IOUtil;
 import htsjdk.samtools.util.ProgressLogger;
-import htsjdk.samtools.*;
+import htsjdk.samtools.fork.*;
 import picard.cmdline.programgroups.SamOrBam;
 import picard.sam.markduplicates.util.AbstractMarkDuplicatesCommandLineProgram;
 
